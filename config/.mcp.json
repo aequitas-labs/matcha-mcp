@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "matcha_money": {
+      "type": "http",
+      "url": "https://matcha.money/api/mcp/mcp"
+    }
+  }
+}

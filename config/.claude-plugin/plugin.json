@@ -1,0 +1,13 @@
+{
+  "name": "matcha-money",
+  "version": "0.1.0",
+  "description": "Connect Claude to your matcha money account for personal finance management.",
+  "author": {
+    "name": "Aequitas Labs",
+    "email": "support@matcha.money",
+    "url": "https://matcha.money"
+  },
+  "homepage": "https://matcha.money/docs/user/ai-integrations",
+  "license": "MIT",
+  "keywords": ["finance", "budgeting", "banking", "investments", "money"]
+}

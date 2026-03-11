@@ -1,0 +1,41 @@
+{
+  "name": "@matcha-money/mcp-prompts",
+  "version": "0.1.0",
+  "description": "Pre-built financial prompt templates for matcha money — 6 AI financial skills for Claude Desktop and other MCP clients.",
+  "license": "MIT",
+  "author": {
+    "name": "Aequitas Labs",
+    "email": "support@matcha.money",
+    "url": "https://matcha.money"
+  },
+  "main": "index.ts",
+  "types": "index.ts",
+  "scripts": {
+    "generate": "tsx scripts/generate-prompts.ts",
+    "build": "tsx scripts/generate-prompts.ts",
+    "lint": "eslint",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "files": [
+    "index.ts",
+    "prompts.gen.ts",
+    "prompts",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "mcp",
+    "finance",
+    "budgeting",
+    "claude",
+    "matcha-money",
+    "prompts"
+  ],
+  "devDependencies": {
+    "@types/node": "^25.3.5",
+    "eslint": "^9",
+    "prettier": "^3.7.4",
+    "tsx": "^4.20.6"
+  }
+}
