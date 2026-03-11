@@ -42,50 +42,50 @@ claude mcp add --transport http matcha_money https://matcha.money/api/mcp/mcp
 
 ### Portfolio
 
-| Tool | Description |
-|------|-------------|
-| `get_accounts` | Get all financial accounts (bank accounts, credit cards, investments) |
-| `get_account` | Get detailed account information with optional balance history |
-| `manage_accounts` | Create, update, reconcile, or archive accounts |
-| `get_net_worth` | Get net worth data (current or historical) |
-| `get_holdings` | Get investment holdings with per-ticker gain/loss |
-| `get_liabilities` | Get credit cards and loans with APR, payments, and limits |
-| `manage_holdings` | Create, update, delete, or exclude investment holdings |
-| `manage_manual_items` | Organize manual accounts under bank groups |
+| Tool                  | Description                                                           |
+| --------------------- | --------------------------------------------------------------------- |
+| `get_accounts`        | Get all financial accounts (bank accounts, credit cards, investments) |
+| `get_account`         | Get detailed account information with optional balance history        |
+| `manage_accounts`     | Create, update, reconcile, or archive accounts                        |
+| `get_net_worth`       | Get net worth data (current or historical)                            |
+| `get_holdings`        | Get investment holdings with per-ticker gain/loss                     |
+| `get_liabilities`     | Get credit cards and loans with APR, payments, and limits             |
+| `manage_holdings`     | Create, update, delete, or exclude investment holdings                |
+| `manage_manual_items` | Organize manual accounts under bank groups                            |
 
 ### Transactions
 
-| Tool | Description |
-|------|-------------|
-| `get_transactions` | Get recent transactions with filters (date, category, tags, search) |
-| `manage_transactions` | Create, update, delete, split, or batch-update transactions |
+| Tool                  | Description                                                         |
+| --------------------- | ------------------------------------------------------------------- |
+| `get_transactions`    | Get recent transactions with filters (date, category, tags, search) |
+| `manage_transactions` | Create, update, delete, split, or batch-update transactions         |
 
 ### Budget
 
-| Tool | Description |
-|------|-------------|
-| `get_budget` | Get budget targets, analysis, or income data |
-| `manage_budgets` | Set budget targets or transfer funds between categories/goals |
-| `get_goals` | Get savings goals |
-| `manage_goals` | Create, update, or archive savings goals |
-| `get_recurring_bills` | Get all recurring bills |
-| `manage_recurring_bills` | Create, update, or delete recurring bills |
+| Tool                     | Description                                                   |
+| ------------------------ | ------------------------------------------------------------- |
+| `get_budget`             | Get budget targets, analysis, or income data                  |
+| `manage_budgets`         | Set budget targets or transfer funds between categories/goals |
+| `get_goals`              | Get savings goals                                             |
+| `manage_goals`           | Create, update, or archive savings goals                      |
+| `get_recurring_bills`    | Get all recurring bills                                       |
+| `manage_recurring_bills` | Create, update, or delete recurring bills                     |
 
 ### System
 
-| Tool | Description |
-|------|-------------|
-| `get_taxonomy` | Get all categories and tags |
-| `manage_taxonomy` | Create, update, or delete categories/tags |
-| `merge_tags` | Merge one tag into another (irreversible) |
-| `get_rules` | Get auto-categorization rules |
-| `manage_rules` | Create, update, or delete categorization rules |
-| `run_rules` | Apply rules to uncategorized transactions |
+| Tool              | Description                                    |
+| ----------------- | ---------------------------------------------- |
+| `get_taxonomy`    | Get all categories and tags                    |
+| `manage_taxonomy` | Create, update, or delete categories/tags      |
+| `merge_tags`      | Merge one tag into another (irreversible)      |
+| `get_rules`       | Get auto-categorization rules                  |
+| `manage_rules`    | Create, update, or delete categorization rules |
+| `run_rules`       | Apply rules to uncategorized transactions      |
 
 ## Available Prompts
 
-| Prompt | Description |
-|--------|-------------|
+| Prompt               | Description                                                        |
+| -------------------- | ------------------------------------------------------------------ |
 | `financial_snapshot` | Complete overview of accounts, net worth, budget, goals, and bills |
 
 ## Links

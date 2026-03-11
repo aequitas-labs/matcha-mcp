@@ -1,3 +1,3 @@
-import { defineConfig, globalIgnores } from "eslint/config";
+import { defineConfig, globalIgnores } from 'eslint/config';
 
-export default defineConfig([globalIgnores(["prompts.gen.ts", "scripts/**"])]);
+export default defineConfig([globalIgnores(['prompts.gen.ts', 'scripts/**'])]);
