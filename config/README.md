@@ -71,6 +71,14 @@ claude mcp add --transport http matcha_money https://matcha.money/api/mcp/mcp
 | `get_recurring_bills`    | Get all recurring bills                                       |
 | `manage_recurring_bills` | Create, update, or delete recurring bills                     |
 
+### Receipts
+
+| Tool               | Description                                                        |
+| ------------------ | ------------------------------------------------------------------ |
+| `get_receipts`     | Get receipts with filters (status, merchant, date range)           |
+| `manage_receipts`  | Match receipts to transactions, dismiss, or batch add new receipts |
+| `get_merchant_ids` | Get all known merchant IDs from the merchant registry              |
+
 ### System
 
 | Tool              | Description                                    |
